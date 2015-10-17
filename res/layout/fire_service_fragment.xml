@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_text_style"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtFireService"
+            style="@style/ButtonText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/text_view_red"
+            android:text="@string/fire_service"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtDhakaUttar"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_red"
+                android:text="@string/dhaka_uttar"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnTejgaonStation"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/tejgaon_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnMohammadpurStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/mohammadpur_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnMirpurStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/mirpur_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnKurmitolaStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/kurmitola_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnBaridharaStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/baridhara_station"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtDhakaUaskhin"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_red"
+                android:text="@string/dhaka_daskhin"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnSiddikBazarStation"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/siddik_bazar_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnSodorghatStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/sodorghat_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnPostogolaStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/postogola_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnLalbaghStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/lalbagh_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnPolasiStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/polashi_station"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnKhilgaoanStation"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/khilgaon_station"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

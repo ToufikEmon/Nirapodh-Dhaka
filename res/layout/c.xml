@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_text_style"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtCanadianAmbassy"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="The High Commission of Canada"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCanadianAmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="United Nations Road , Baridhara, P.O. Box 569, Dhaka "
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnCanadianEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/tvChinessEmbassyName"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Chinese Embassy"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvChinessEmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="Plot 2/4, Road No. 3, Block-1, Baridara"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnChinessEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/tvCubianEmbassy"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Embassy of Cuba in Dhaka"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCubianEmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="House N 34-F,Road N7, Banani"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnCubianEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/tvCyprusEmbassy"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Honorary Consulate of the Republic of Cyprus "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCyprusEmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="ABC House, 9th Floor, 8 Kemal Ataturk Ave., Banani C/A, Dhaka 1213"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnCyprusEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/tvCzechRepublicEmbassy"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Honorary Consulate of the Czech Republic"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvCzechRepublicEmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="98, Gulshan Avenue, C, E, S, (A) 48, Gulshan, Dhaka"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnCzechRepublicPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

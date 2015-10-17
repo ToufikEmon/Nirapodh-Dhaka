@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008BE5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnGulshan"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/gulshan_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnLalbag"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/lalbagh_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnMirpur"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/mirpur_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnMothijheel"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/mothijheel_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnRamna"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/ramna_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnTejgaon"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/tejgaon_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnUttra"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/uttra_zone"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnWari"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/wari_zone"
+            android:textColor="@color/Black" />
+    </LinearLayout>
+
+</ScrollView>

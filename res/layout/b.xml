@@ -1,0 +1,228 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/edit_text_style"
+        android:orientation="vertical" >
+        
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/tvBritainEmbassy"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="British High Commission"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvBritainEmbassyAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="United Nations Road, Baridhara , P O Box 6079 Dhaka 1212  "
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnBritainEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtBElNameeMBASSY"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Honorary Consulate of Belgium"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btnBELEmbassiAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="ACI Centre - 245 Tejgaon Industrial Area, 1208 Dhaka, Bangladesh "
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnBElEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtBhutameeMBASSY"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Royal Bhutanese Embassy "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btnBHUEmbassiAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="House No. 12, Road No. 107, Gulshan-2, Dhaka 1212, Bangladesh "
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnBHUAfganEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtBRAMBASSY"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="Embassy of Brazil"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btnBRAEmbassiAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="Symphony Building, 4th Floor 9 Road-142 , Tejgaon Gulshan Link Road, Dhaka 1212 , Bangladesh"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnBRAambassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/txtBRUNEIameeMBASSY"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_view_black_sky"
+                android:text="High Commission Brunei Darussalam "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/btnBRUNEIEmbassiAddress"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_style_thin"
+                android:text="House No.26, Road No. 6, Baridhara, Dhaka-1212, Bangladesh"
+                android:textSize="16sp" 
+                android:textColor="@color/Black"/>
+
+            <Button
+                android:id="@+id/btnBRUNEIEmbassyPhone"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="Phone"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008BE5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnVictimSupportCenter"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/nari_surokkha_button"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnEmbassi"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/sisu_surrokha_button"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnPolice"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/police_button"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnRAB"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/rab_button"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnFireService"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/fire_service_button"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnAmbulance"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/ambulence"
+            android:textColor="@color/Black" />
+
+        <Button
+            android:id="@+id/btnNGO"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="@string/ngo_button"
+            android:textColor="@color/Black" />
+    </LinearLayout>
+
+</ScrollView>

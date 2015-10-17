@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_out_left" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="bla"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_one" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="vuha"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_two" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="bl"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_three" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="emo"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_five" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="bla"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_six" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="vuha"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_seven" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="bl"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_eight" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="chyon"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_nine" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="emo"
+            android:scaleType="fitXY"
+            android:src="@drawable/image_ten" />
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="Start Slide Show" />
+
+</RelativeLayout>

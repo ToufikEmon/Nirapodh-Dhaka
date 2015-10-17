@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">নিরাপদ  ঢাকা</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Home Fragment Button Name -->
+
+    <string name="nari_surokkha_button">ভিকটিম সাপোর্ট সেন্টার\nVictim Support Center</string>
+    <string name="sisu_surrokha_button">এমব্যাসি\nEmbassi</string>
+    <string name="police_button">পুলিশ\nPolice</string>
+    <string name="rab_button">র‍্যাব\nRAB</string>
+    <string name="fire_service_button">ফায়ার সার্ভিস\nFire Service</string>
+    <string name="ngo_button">এন জি ও\nNGO</string>
+    <string name="ambulence">আম্বুলেঞ্চ\nAmbulence</string>
+
+    <!-- Home Fragment Button text finished -->
+
+
+    <!-- Menu Item -->
+    <string-array name="nav_drawer_item">
+        <item>হোম</item>
+        <item>ঢাকার ইতিহাস</item>
+        <item>ছবিতে ঢাকা</item>
+        <item>আমার  সম্পর্কে জানুন</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/dhaka</item>
+        <item>@drawable/dhaka_icon</item>
+        <item>@drawable/me</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Victim Support Center -->
+    <string name="number1">নাম্বার ১\n01755556644</string>
+    <string name="number2">নাম্বার ২\n01733219030</string>
+    <string name="number3">নাম্বার ৩\n01755556645</string>
+    <string name="number4">নাম্বার ৪\n01733219005</string>
+
+    <!-- All Thana Name In Bangla Ends Here -->
+    <string name="gulshan_zone">গুলশান জোন</string>
+    <string name="dhanmondi_zone">্ধানমণ্ডি জোন</string>
+    <string name="lalbagh_zone">লালাবাগ জোন</string>
+    <string name="mirpur_zone">মিরপুর জোন</string>
+    <string name="mothijheel_zone">মতিঝিল জোন</string>
+    <string name="ramna_zone">রমনা জোন</string>
+    <string name="tejgaon_zone">তেজগাঁ জোন</string>
+    <string name="uttra_zone">উত্তরা জোন</string>
+    <string name="wari_zone">ওয়ারি জোন</string>
+    <string name="mohammadpur_zone">মহাম্মাদপুর জোন</string>
+
+    <!-- Button With number -->
+    <string name="deauty_officer">ডিউটি  অফিসার(Deauty Officer)</string>
+    <string name="oc_thana">ও সি(O.C)</string>
+    <string name="si_thana">এস আই(S.I)</string>
+    <string name="rab_on_deauty">র‌্যাব(RAB)</string>
+    <string name="mp_of_the_area">এম পি(M.P)</string>
+    <string name="ambulance_number">অ্যাম্বুলেঞ্চ(Ambulance)</string>
+    <string name="govt_hospital">সরকারি হাসপাতাল(Govt.Hospital) </string>
+
+    <!-- RAB DATA -->
+
+    <string name="btn_control_room">কন্ট্রোল রুম\nControl Room</string>
+    <string name="duty_officer">ডিউটি অফিসার\nDuity Officer</string>
+    <string name="batalian_sadar">ব্যাটালিয়ান সদর\nBatalian Sadar</string>
+
+    <!-- Fire Service -->
+
+    <string name="fire_service">ফায়ার সার্ভিস(Fire Service)</string>
+    <string name="dhaka_uttar">ঢাকা উত্তর</string>
+    <string name="tejgaon_station">তেজগাঁ স্টেশন\nTejgaon Fire Station</string>
+    <string name="mohammadpur_station">মহাম্মাদপুর স্টেশন\nMohammadpur Fire Station</string>
+    <string name="mirpur_station">মিরপুর স্টেশন\nMirpur Fire Station</string>
+    <string name="kurmitola_station">কুর্মিটোলা স্টেশন\nKurmitola Fire Station</string>
+    <string name="baridhara_station">বারিধারা স্টেশন\nBaridhara Fire Station</string>
+    <!-- Dhaka Daskhin -->
+    <string name="dhaka_daskhin">ঢাকা দক্ষিণ</string>
+    <string name="siddik_bazar_station">সিদ্দিক বাজার স্টেশন\nSiddik Bazar Fire Station</string>
+    <string name="sodorghat_station">সদরঘাট স্টেশন\nSodhorghat Fire Station</string>
+    <string name="postogola_station">পোস্তগোলা স্টেশন\nPostogola Fire Station</string>
+    <string name="lalbagh_station">লালবাগ স্টেশন\nLalbag Fire Station</string>
+    <string name="polashi_station">পলাশী স্টেশন\nPolashi Barak Fire Station</string>
+    <string name="khilgaon_station">খিলগাঁ স্টেশন\nKhilgaon Fire Station</string>
+
+    <!-- NGO -->
+    <string name="ain_o_salis_kendro">আইন ও সালিশ কেন্দ্র\nAin O Salis kendro</string>
+    <string name="amnesty_international">অ্যামনেস্টি  ইন্টারন্যাশনাল বাংলাদেশ\nAmnesty Inernational bangladesh</string>
+    <string name="bangladesh_human_rights">বাংলাদেশ হিউম্যান রাইট্‌স\nBangladesh Human Rights</string>
+    <string name="bangladesh_mohila_parishad">বাংলাদেশ মহিলা পারিষদ\nMohila Parishadh</string>
+    <string name="bangladesh_national_women_lawer_association">মহিলা আইনজীবী সমিতি\nWomen Lawer Association</string>
+    <string name="brac">ব্র্যাক\nBRAC</string>
+    <string name="democracy_watch">ডেমোক্রেসি ওয়াচ\nDemocracy Watch</string>
+    <string name="odhikar">অধিকার\nOdhikar</string>
+    <string name="ucep">ইউসেপ\nUCEP</string>
+    <string name="str_btn_start">Start SlideShow</string>
+    <string name="str_btn_stop">Stop SlideShow</string>
+
+</resources>

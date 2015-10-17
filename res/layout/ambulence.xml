@@ -1,0 +1,272 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008BE5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_bg"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnApolloHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="অ্যাপোলো হাসপাতাল\nApollo Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnAdDinHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="আদ দীন হাসপাতাল\nAd-Din Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnAnjumanEMufidulislam"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="আঞ্জুমান ই  মুফিদুল ইসলাম\n Anju-Man-E-Mufidul Islam"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPGHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="পি জি হাসপাতাল \nPG Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnBirdemHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="বারডেম\nBirdem"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCMHHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="সি এম  এইছ \nCMH"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEyeHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="চক্ষু হাসপাতাল\nEye Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnDMCHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="ঢাকা মেডিকেল কলেজ \nDMC"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnHeartHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="হার্ট  ফাউন্ডেশন\nHeart Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnHolyFamilyHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="হলি ফ্যামিলি হাসপাতাল\nHoly Family Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnICDDRBHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="কলেরা হাসপাতাল\nICDDRB"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnIslamiaOpticalHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="ইসলামিয়া চক্ষু হাসপাতাল\nIslamia Optical Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLabAidHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="ল্যাব এইড হাসপাতাল\nLab-Aid Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMedinovaHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="মেডিনোভা হাসপাতাল\nMedinova Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnNationalHeartFoundationHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="জাতীয় হার্ট ফউন্ডেশন\nNational Heart Foundation "
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnRedCrescentHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="রেড ক্রিসেন্ট \n Red Cresecent Ambulence"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSishuHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="শিশু হাসপাতাল\nSishu Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnShaheedSuhrawardyHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="শাহীদ সোহরাওরদী হাসপাতাল\nShaheed Suhrawardy Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSquareHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="স্কোয়ার হাসপাতাল\n Square Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnUnitedHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="ইউনাইটেড হাসপাতাল\n United Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnOrthopedicHospital"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_default_bg"
+            android:padding="10dp"
+            android:text="অর্থপেডিক  হাসপাতাল \nOrthopedic Hospital"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

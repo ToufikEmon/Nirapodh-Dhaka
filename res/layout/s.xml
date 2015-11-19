@@ -41,7 +41,7 @@
                 android:textColor="@color/Black"/>
 
             <Button
-                android:id="@+id/btnSudiEmbassyPhone"
+                android:id="@+id/btnSaudiEmbassyPhone"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

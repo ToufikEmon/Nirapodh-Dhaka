@@ -85,7 +85,7 @@
                 android:textColor="@color/Black"/>
 
             <Button
-                android:id="@+id/btnBElEmbassyPhone"
+                android:id="@+id/btnBelgiumEmbassyPhone"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                 android:textColor="@color/Black"/>
 
             <Button
-                android:id="@+id/btnBHUAfganEmbassyPhone"
+                android:id="@+id/btnBHUTANEmbassyPhone"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

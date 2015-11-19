@@ -30,7 +30,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnAdabarThanaDutyOfficer"
+                android:id="@+id/btnAdabarThanaControlRoom"
                 style="@style/ButtonText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btnAdabarThanaOC"
+                android:id="@+id/btnAdabarThanaDutyOfficer"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnMohammadpurThanaDutyOfficer"
+                android:id="@+id/btnMohammadpurThanaControlRoom"
                 style="@style/ButtonText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btnMohammadpurThanaOC"
+                android:id="@+id/btnMohammadpurThanaDutyOfficer"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnShereBanglaNagarThanaDutyOfficer"
+                android:id="@+id/btnShereBanglaNagarThanaControlRoom"
                 style="@style/ButtonText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btnShereBanglaNagarThanaOC"
+                android:id="@+id/btnShereBanglaNagarThanaDutyOfficer"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/btnTejgaonThanaDutyOfficer"
+                android:id="@+id/btnTejgaonThanaControlRoom"
                 style="@style/ButtonText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -166,7 +166,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btnTejgaonThanaOC"
+                android:id="@+id/btnTejgaonThanaDutyOfficer"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -198,59 +198,17 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btnTegaonShilpanchalThanaControlRoom"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/blue_button"
+                android:text="@string/btn_control_room"
+                android:textSize="14sp" />
+
+            <Button
                 android:id="@+id/btnTegaonShilpanchalThanaDutyOfficer"
-                style="@style/ButtonText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/blue_button"
-                android:text="@string/btn_control_room"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/btnTegaonShilpanchalThanaOC"
-                style="@style/ButtonText"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/blue_button"
-                android:text="@string/duty_officer"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@drawable/edit_text_style"
-            android:orientation="vertical"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin" >
-
-            <TextView
-                android:id="@+id/txtNameRAB6"
-                style="@style/ButtonText"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/text_view_black"
-                android:text="অন্যান্য\nOthers Important Contact"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/btnTejgaonAcPatrol"
-                style="@style/ButtonText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/blue_button"
-                android:text="@string/btn_control_room"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/btnTejgaonDeputyCommissioner"
                 style="@style/ButtonText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

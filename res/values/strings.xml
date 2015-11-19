@@ -9,13 +9,16 @@
 
     <!-- Home Fragment Button Name -->
 
+
     <string name="nari_surokkha_button">ভিকটিম সাপোর্ট সেন্টার\nVictim Support Center</string>
     <string name="sisu_surrokha_button">এমব্যাসি\nEmbassi</string>
     <string name="police_button">পুলিশ\nPolice</string>
     <string name="rab_button">র‍্যাব\nRAB</string>
     <string name="fire_service_button">ফায়ার সার্ভিস\nFire Service</string>
     <string name="ngo_button">এন জি ও\nNGO</string>
-    <string name="ambulence">আম্বুলেঞ্চ\nAmbulence</string>
+    <string name="ambulence">অ্যাম্বুলেন্স\nAmbulence</string>
+    <string name="police_hotline">পুলিশ হটলাইন\n Police Hotline</string>
+    <string name="nari_surokkha">নারী সুরক্ষা\n Women Safety</string>
 
     <!-- Home Fragment Button text finished -->
 
@@ -57,6 +60,8 @@
 
     <!-- Button With number -->
     <string name="deauty_officer">ডিউটি  অফিসার(Deauty Officer)</string>
+    <string name="ac_patrol">এ সি পেট্রোল\nA C Petrol</string>
+    <string name="deputy_officer">ডেপুটি কমিশনার\n Deputy Comissionar</string>
     <string name="oc_thana">ও সি(O.C)</string>
     <string name="si_thana">এস আই(S.I)</string>
     <string name="rab_on_deauty">র‌্যাব(RAB)</string>

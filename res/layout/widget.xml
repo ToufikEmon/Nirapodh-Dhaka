@@ -1,0 +1,17 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="1" >
+
+    <ImageButton
+        android:id="@+id/imageButtonWidget"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@drawable/widget_design"
+        android:contentDescription="Police"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget"
+        android:tag="Police" />
+
+</GridLayout>

@@ -35,7 +35,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/text_view_red"
+                android:background="@drawable/text_view"
                 android:text="@string/dhaka_uttar"
                 android:textSize="14sp" />
 
@@ -107,7 +107,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/text_view_red"
+                android:background="@drawable/text_view"
                 android:text="@string/dhaka_daskhin"
                 android:textSize="14sp" />
 

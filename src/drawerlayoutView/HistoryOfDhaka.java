@@ -1,12 +1,12 @@
 package drawerlayoutView;
 
-import com.example.nirapodthakun.R;
-
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.emon.nirapodthdhaka.R;
 
 public class HistoryOfDhaka extends Fragment {
 	public HistoryOfDhaka() {

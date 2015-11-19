@@ -113,18 +113,6 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btnHeartHospital"
-            style="@style/ButtonText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/button_default_bg"
-            android:padding="10dp"
-            android:text="হার্ট  ফাউন্ডেশন\nHeart Hospital"
-            android:textColor="@color/Black"
-            android:textSize="16sp" />
-
-        <Button
             android:id="@+id/btnHolyFamilyHospital"
             style="@style/ButtonText"
             android:layout_width="match_parent"

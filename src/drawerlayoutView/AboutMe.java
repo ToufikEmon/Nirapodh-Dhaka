@@ -1,5 +1,6 @@
 package drawerlayoutView;
 
+import round_image.RoundImage;
 import android.app.Fragment;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,8 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.nirapodthakun.R;
-import com.example.round_image.RoundImage;
+import com.emon.nirapodthdhaka.R;
 
 public class AboutMe extends Fragment {
 

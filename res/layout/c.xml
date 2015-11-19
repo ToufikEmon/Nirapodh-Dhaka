@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/text_view_black_sky"
-                android:text="Embassy of Cuba in Dhaka"
+                android:text="Embassy of Cuba "
                 android:textSize="20sp" />
 
             <TextView

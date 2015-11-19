@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ViewFlipper;
 
-import com.example.nirapodthakun.R;
+import com.emon.nirapodthdhaka.R;
 
 public class PictureofDhaka extends Fragment {
 
